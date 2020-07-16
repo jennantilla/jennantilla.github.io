@@ -1,3 +1,11 @@
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -41,4 +49,8 @@ ul {
 .card-img-top {
     max-width: 100%;
     height: auto;
+}
+
+.skills-row {
+    margin: auto;
 }
