@@ -23,7 +23,7 @@ ul {
 
 #home {
     background-image: url('media/jen.jpg');
-    height: 575px;
+    height: 700x;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,4 +36,9 @@ ul {
 
 .center {
     text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
