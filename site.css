@@ -1,22 +1,19 @@
 @media (min-width: 1200px) {
-
-
-#home {
-    background-image: url('media/jen.jpg');
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    #home {
+        background-image: url('media/jen.jpg');
+        height: 500px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 /*Hide in Other Small Devices */
 
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
-      .bgimg {
+      #home {
         background-image: none;
     }
 
@@ -25,7 +22,7 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
-          .bgimg {
+    #home {
         background-image: none;
     }
 
@@ -34,7 +31,7 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
-          .bgimg {
+    #home{
         background-image: none;
     }
 
@@ -43,7 +40,7 @@
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
 
-          .bgimg {
+        #home {
         background-image: none;
     }
 
