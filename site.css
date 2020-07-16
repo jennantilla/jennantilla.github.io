@@ -1,9 +1,52 @@
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+@media (min-width: 1200px) {
+
+
+#home {
+    background-image: url('media/jen.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+/*Hide in Other Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+      .bgimg {
+        background-image: none;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+          .bgimg {
+        background-image: none;
+    }
+
 }
 
 body {
@@ -27,15 +70,6 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-#home {
-    background-image: url('media/jen.jpg');
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #tech {
