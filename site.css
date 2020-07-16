@@ -4,6 +4,7 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 #footer {
@@ -34,6 +35,14 @@ ul {
     height: auto;
 }
 
+.card-title {
+        font-size: 100%
+    }
+    
+    .card-text {
+        font-size: 100%;
+    }
+
 .skills-row {
     margin: auto;
 }
@@ -54,6 +63,14 @@ ul {
 @media (max-width: 480px) {
     #home {
         background-image: none;
+    }
+
+    .card-title {
+        font-size: 25%
+    }
+    
+    .card-text {
+        font-size: 25%;
     }
 
 }
