@@ -7,11 +7,6 @@ ul {
     padding-left: 0;
 }
 
-#footer {
-    margin-top: 10em;
-    margin-bottom: 2em;
-}
-
 #jenna-photo {
     width:150px;
     height:150px;
@@ -26,51 +21,40 @@ ul {
     text-decoration: underline
 }
 
+.card {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-footer {
+    background-color: white;
+
+}
+
 .center {
     text-align: center;
 }
 
-.card-img-top {
-    max-width: 100%;
-    height: auto;
-}
-
-.card-title {
-        font-size: 100%
-    }
-    
-    .card-text {
-        font-size: 100%;
-    }
-
 .skills-row {
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 @media (min-width: 768px) {
     #home {
         background-image: url('media/jen.jpg');
-        height: 500px;
+        height: 600px;
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-/*Hide in Other Small Devices */
+/*Hide background image on mobile */
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
     #home {
         background-image: none;
     }
-
-    .card-title {
-        font-size: 25%
-    }
-    
-    .card-text {
-        font-size: 25%;
-    }
-
 }
