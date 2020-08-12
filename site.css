@@ -35,6 +35,21 @@ ul {
     text-align: center;
 }
 
+.projects {
+    margin-bottom: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+
+.project-description {
+    margin: 20px;
+}
+
+.project-image {
+    width: 100%;
+}
+
 .skills-row {
     width: 100%;
     margin: 0 auto;
